@@ -1,0 +1,13 @@
+{
+	"name": "LocalSqlDBDataset",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LocalSqlServerLinkedService",
+			"type": "LinkedServiceReference"
+		},
+		"type": "SqlServerTable",
+		"typeProperties": {
+			"tableName": "[dbo].[watermarktable]"
+		}
+	}
+}
