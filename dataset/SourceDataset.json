@@ -1,0 +1,13 @@
+{
+	"name": "SourceDataset",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LocalSqlServerLinkedService",
+			"type": "LinkedServiceReference"
+		},
+		"type": "SqlServerTable",
+		"typeProperties": {
+			"tableName": "[dbo].[data_source_table]"
+		}
+	}
+}
