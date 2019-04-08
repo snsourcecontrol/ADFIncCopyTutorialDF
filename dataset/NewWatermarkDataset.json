@@ -1,0 +1,6 @@
+{
+	"name": "NewWatermarkDataset",
+	"properties": {
+		"type": "SqlServerTable"
+	}
+}
